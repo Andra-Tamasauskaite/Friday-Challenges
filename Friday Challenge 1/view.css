@@ -1,14 +1,28 @@
 
 
-.tekstas {
-    font-size: 11px;
-    caption-side: bottom;
-    /* font-family: times new roman; */    
-}
-
 body {
     text-align: center;
     margin: 1rem;
+    font-family: Segoe 'UI';
+}
+
+
+.background {
+    display: flex;
+    flex-direction: column;
+    background-color: #c2c2c2;
+    width: 820px;
+    height: 1200px;
+    margin: auto;
+}
+
+.tekstas {
+    font-size: 11px;
+    caption-side: bottom;
+    background-color: white;    
+}
+
+caption {
     font-family: calibri;
 }
 

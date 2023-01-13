@@ -1,0 +1,40 @@
+
+
+.tekstas {
+    font-size: 11px;
+    caption-side: bottom;
+    /* font-family: times new roman; */    
+}
+
+body {
+    text-align: center;
+    margin: 1rem;
+    font-family: calibri;
+}
+
+.kalendorius {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+table, tr, td {
+     width: 33.3%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 15px; 
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    padding: 5px;
+}
+
+th {
+    font-weight: normal;
+    background-color: #35be5c;
+    color: white;
+}
+

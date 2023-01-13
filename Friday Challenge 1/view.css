@@ -6,11 +6,10 @@ body {
     font-family: Segoe 'UI';
 }
 
-
 .background {
     display: flex;
     flex-direction: column;
-    background-color: #c2c2c2;
+    background-color: #ecefe7;
     width: 820px;
     height: 1200px;
     margin: auto;
@@ -23,7 +22,7 @@ body {
 }
 
 caption {
-    font-family: calibri;
+    font-family: 'times new roman';
 }
 
 .kalendorius {
@@ -48,7 +47,7 @@ tr, th, td {
 
 th {
     font-weight: normal;
-    background-color: #35be5c;
+    background-color: #58d97c;
     color: white;
 }
 

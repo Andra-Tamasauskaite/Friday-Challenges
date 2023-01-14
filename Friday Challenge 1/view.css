@@ -2,7 +2,9 @@
 body {
     text-align: center;
     margin: 1rem;
-    font-family: 'Times New Roman'
+    font-family: 'Times New Roman';
+    /* background-color: #f7fced; 
+    Nežinau ar visą background ar tik lentelės background color pakeisti (pasirinkau antrą variantą)*/
 }
 
 .background {
@@ -20,8 +22,31 @@ body {
     background-color: white;    
 }
 
-caption {
+.tag {
     font-family: 'Calibri';
+    padding: 0 6px;
+    border-left: 5px solid #f9d7d7;
+    text-align: left; 
+    margin: 1rem 0 0 0;  
+    font-weight: bold
+}
+
+.tag2 {
+    font-family: 'Calibri';
+    padding: 0 6px;
+    border-left: 5px solid #ededed;
+    text-align: left; 
+    margin: 1px 0 0 0; 
+    font-weight: bold;
+}
+
+.tag3 {
+    font-family: 'Calibri';
+    padding: 0 6px;
+    border-left: 5px solid #f9d7d7;
+    text-align: left; 
+    margin: 1px 0 0 0; 
+    font-weight: bold;
 }
 
 .kalendorius {
@@ -53,3 +78,4 @@ th {
     background-color: #58d97c;
     color: white;
 }
+

@@ -3,17 +3,18 @@ body {
     text-align: center;
     margin: 1rem;
     font-family: 'Times New Roman';
-    /* background-color: #f7fced; 
-    Nežinau ar visą background ar tik lentelės background color pakeisti (pasirinkau antrą variantą)*/
+    background-color: #f7fced; 
+   
 }
 
 .background {
     display: flex;
     flex-direction: column;
-    background-color: #f7fced;
+    /* background-color: #f7fced;
     width: 820px;
     height: 1200px;
     margin: auto;
+    Nežinau ar visą background ar tik lentelės background color pakeisti (pasirinkau pirmą variantą) */
 }
 
 .tekstas {

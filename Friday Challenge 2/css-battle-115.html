@@ -1,0 +1,54 @@
+<div class="backg top"></div>
+<div class="backg bot">
+  <div class="main"></div>
+</div>
+<div class="side"></div>
+<div class="element"></div>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f2e09f;
+  }
+
+  .element {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    background: linear-gradient(#c36271 50%, #f2e09f 50%);
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .backg {
+    height: 50%;
+    background: #c36271;
+  }
+
+  .bot {
+    width: 95%;
+    margin-left: auto;
+    border-top-left-radius: 100px;
+  }
+
+  .top {
+    background: #f2e09f;
+    position: relative;
+    z-index: 1;
+    width: 95%;
+    border-bottom-right-radius: 100px;
+  }
+
+  .side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #c36271;
+    width: 200px;
+    height: 400px;
+  }
+</style>

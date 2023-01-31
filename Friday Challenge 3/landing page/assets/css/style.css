@@ -1,0 +1,1055 @@
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url("../fonts/cerebri-sans-bold.ttf");
+}
+
+/* !!!!!!!!!!!!!!!!!! */
+/*    Whole DC */
+/* !!!!!!!!!!!!!!!!! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Mandali", sans-serif;
+  color: #6c757d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  color: #343a40;
+  margin: 0 0 20px;
+}
+
+.text-white {
+  color: #fff;
+  margin: 0 0 8px;
+}
+
+.text-low-opacity {
+  color: #6c757d;
+}
+
+.d-flex {
+  display: flex;
+}
+
+section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-1 - HOME  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+header .container {
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  display: block;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+header nav a {
+  color: #6c757d;
+}
+
+header nav a:hover {
+  color: #1f61eb;
+}
+
+header .account ul {
+  display: flex;
+  gap: 20px;
+}
+
+header .account a {
+  color: #6c757d;
+}
+
+header .account a:hover {
+  color: #1f61eb;
+}
+
+header .account a.sign-up-link {
+  background: #c8d9fa;
+  color: #1f61eb;
+  border: 1px solid #a6c1f8;
+  border-radius: 3px;
+  padding: 2px 15px;
+  display: block;
+}
+
+header .account a.sign-up-link:hover {
+  background: #1f61eb;
+  color: white;
+  border-color: #1f61eb;
+}
+
+header .account a:hover {
+  color: #1f61eb;
+}
+
+header a {
+  transition: all 0.3s ease-in-out;
+}
+
+#home {
+  background: url("../img/hero-3-bg.png") no-repeat top center / cover;
+  padding-top: 170px;
+}
+
+#home .left,
+#home .right {
+  width: 50%;
+}
+
+#home .container {
+  gap: 30px;
+}
+
+#home .left {
+  padding-top: 60px;
+}
+
+#home .left h1 {
+  font-size: 56px;
+  margin: 0 0 20px;
+}
+
+#home .left p {
+  font-size: 17px;
+  line-height: 28px;
+}
+
+#home .left ul {
+  margin-bottom: 30px;
+}
+
+#home .left li {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+#home .left li::before {
+  content: "\F270";
+  font-family: bootstrap-icons;
+  color: #39e5b7;
+  font-weight: bold;
+}
+
+#home .left .featured-button {
+  background: #1f61eb;
+  border-radius: 4px;
+  font-size: 17px;
+  color: white;
+  padding: 9px 29px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+
+#home .left .featured-button:hover {
+  background: #1457e1;
+  box-shadow: 0 9px 10px 0 rgb(197 218 255);
+}
+/* @media (max-width: 768px) {
+  #home .left p::before {
+    content: "";
+  }
+} */
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-in-between - HOW IT WORKS  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+#howitwork {
+  text-align: center;
+}
+
+#howitwork h4 {
+  font-weight: normal;
+  margin: 0 0 8px;
+}
+
+#howitwork h2 {
+  font-size: 30px;
+  margin: 18px 0 8px;
+}
+
+#howitwork .container > p {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+#howitwork .work-box .icon {
+  border-radius: 28% 72% 50% 50%/26% 20% 80% 74%;
+  background: #dee7fc;
+  width: 96px;
+  height: 96px;
+  font-size: 45px;
+  color: black;
+  margin: 0 auto;
+}
+
+#howitwork .work-box {
+  position: relative;
+}
+
+#howitwork .work-box:nth-child(1) .icon {
+  background: #dee7fc;
+}
+
+#howitwork .work-box:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  top: 103px;
+  left: 310px;
+  background: url(../img/arrow-top.png) no-repeat top left;
+  width: 119px;
+  height: 18px;
+}
+
+#howitwork .work-box:nth-child(2) .icon {
+  background: #ddfbf3;
+}
+
+#howitwork .work-box:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 103px;
+  right: 310px;
+  background: url(../img/arrow-bottom.png) no-repeat top left;
+  width: 119px;
+  height: 18px;
+}
+
+#howitwork .work-box:nth-child(3) .icon {
+  background: #fff6dc;
+}
+
+#howitwork .work-box h3 {
+  font-size: 19px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#howitwork .work-box p {
+  margin: 0;
+  line-height: 26px;
+}
+
+#howitwork .work-box {
+  padding: 0 40px;
+}
+
+#howitwork .work-fields {
+  padding-top: 50px;
+}
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!Section 2 - Features !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+#features {
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.feat-backg {
+  background-color: #f8f9fa;
+}
+
+.to-center {
+  margin-bottom: 3rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subtitle {
+  color: #343a40;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 18px 0 8px;
+  line-height: 1.3;
+  color: #343a40;
+}
+
+.edit-top-text {
+  font-weight: 700;
+}
+
+.text-low-opacity {
+  color: #6c757d;
+  font-family: "Mandali", sans-serif;
+  margin-top: 0px 0px 16px;
+}
+
+.feat-img {
+  position: relative;
+  left: 32px;
+  top: 4px;
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Mandali";
+}
+
+.align-items-center {
+  align-items: center;
+  margin: 0px -12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-column-right {
+  width: 44%;
+  margin: 0px 0px 0px 100px;
+  padding: 0px 12px;
+  position: relative;
+  bottom: 3px;
+  left: 60px;
+}
+
+.section-column-right .sec-title {
+  font-size: 37px;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+
+#section-list {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#section-list .icon .icon-edit {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #1f61eb;
+  box-shadow: 0px 5px 14px rgb(31 97 235 / 8%);
+  border-radius: 50%;
+}
+
+#section-list .list-text {
+  margin-left: 1.5rem;
+  flex-grow: 1;
+}
+
+#section-list .spanned-text {
+  color: #343a40;
+  font-weight: 700;
+}
+
+i.material-symbols-outlined {
+  font-size: 20px;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-in-between - Connecting people, Places !!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+.section-btw-bg {
+  background-image: url(../img/features-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.sec-2-title {
+  font-size: 38px;
+  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.section-column-left {
+  width: 41.66666667%;
+  margin: 0px;
+  padding: 0px 12px;
+}
+
+.sec-right {
+  width: 46%;
+  margin: 0px 0px 0px 45px;
+  padding: 0px 12px;
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+.sec-right-img {
+  max-width: 90%;
+  height: auto;
+  margin-right: auto;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-in-between - GLOBAL BRANDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+.section-brands {
+  background-image: url(../img/counter-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.brands-bg-overlay {
+  position: absolute;
+  background-color: #343a40;
+  opacity: 0.85;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.brands-layout {
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 0 12px;
+}
+
+.text-brand {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.branding {
+  width: 261px;
+  height: 125px;
+  align-items: center;
+  text-align: left;
+  background-color: #ffffff1a;
+  backdrop-filter: blur(3px);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ffffff33;
+  box-shadow: 0 5px 20px #343a401a;
+}
+
+.brand-icon {
+  flex-shrink: 0;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1, 2;
+  color: #fff;
+}
+
+.indv-brand-text {
+  margin-left: 1.5rem;
+  flex-grow: 1;
+}
+
+.global-brands {
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 0;
+}
+
+.brand-icon i.material-symbols-outlined {
+  font-size: 3rem;
+}
+
+.indv-brand-text .value {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#counter {
+  width: 1140px;
+  height: 156.8px;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-3 - SCREENSHOTS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+#screenshots .screenshots-shots {
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+#screenshots p {
+  margin-bottom: 4rem;
+}
+
+#screenshots .screenshots-shots .images {
+  display: flex;
+  gap: 25px;
+  width: 122%;
+  margin-left: -125px;
+}
+
+#screenshots .screenshots-shots .images li {
+  border: 2px solid rgb(240 240 240);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#screenshots .screenshots-shots .images li.active {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px 3px #f7f7f7;
+}
+
+#screenshots .screenshots-shots img {
+  display: block;
+}
+
+#screenshots .bullets span {
+  background: #d2dffb;
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+#screenshots .bullets {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+#screenshots .bullets li.active span {
+  background: #1f61eb;
+  position: relative;
+}
+
+#screenshots .bullets li.active span::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #1f61eb;
+  border-radius: 50%;
+}
+
+.opacity-3 {
+  opacity: 0.3;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-4 - TESTIMONIAL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+#testimonial {
+  background-color: #f8f9fa;
+  width: 1473px;
+  height: 814px;
+}
+
+.text-test-top {
+  margin-top: 65px;
+  margin-bottom: 0;
+}
+
+#testimonial .text-para {
+  max-width: 717px;
+  margin: 8px 0px 24px 145px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 0 0 16px;
+}
+
+#testimonial .testim-box img {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px #00000026;
+}
+
+#testimonial .testim-box h6 {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+#testimonial .web-txt {
+  font-size: 14px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 43px;
+  margin-top: 80px;
+}
+
+.social-media .sm-icon {
+  width: 15%;
+  height: auto;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-5 - PRICING !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+#pricing {
+  width: 1473px;
+  height: 1020px;
+  background: #ffffff;
+}
+
+.monthly-yearly {
+  background-color: #eff1f5;
+  width: 220px;
+  height: auto;
+  position: relative;
+  top: 0px;
+  left: 446px;
+  padding: 6px;
+  border-radius: 30px;
+  border: 1px solid #e6e9ef;
+  margin-bottom: 25px;
+}
+
+.monthly-yearly button {
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mandali";
+  cursor: pointer;
+}
+
+#monthly {
+  background-color: #1f61eb;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 23px;
+}
+
+#yearly {
+  margin-left: 22px;
+  color: #292e49;
+}
+
+.pricing-cont {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.pricing-box-lay {
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+  padding: 50px;
+  box-shadow: 0px 4px 8px #343a4014;
+  width: 356px;
+  height: 560px;
+}
+
+.pricing-title {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+}
+
+.pricing-title h5 {
+  font-size: 20px;
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.pricing-title h1 {
+  font-size: 40px;
+  color: #1f61eb;
+  margin: 0;
+  font-weight: 600;
+}
+
+#spanned-month {
+  font-size: 16px;
+  color: #80888f;
+  font-weight: normal;
+}
+
+.pricing-list {
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.pricing-list li {
+  margin: 12px 0px;
+  color: #5b707c;
+}
+
+.pricing-list li b {
+  color: #3d4348;
+}
+
+.choose-plan {
+  margin: 0px;
+  padding: 3px 78px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-family: "Mandali";
+  font-size: 16px;
+}
+
+.pricing-cont button {
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #1f61eb 0%, #94b4f5 100%);
+  color: white;
+  box-shadow: 0 5px 20px #343a401a;
+  cursor: pointer;
+}
+
+.pricing-list i.material-symbols-outlined {
+  font-size: 20px;
+  padding-right: 10px;
+  margin-left: -10px;
+}
+
+#pricing .mid-table {
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .rubber::before {
+  width: 190px;
+  text-align: center;
+  content: "Most Popular";
+  background-color: #eb1f52;
+  color: #ffffff;
+  font-size: 13px;
+  position: absolute;
+  top: 45px;
+  right: -40px;
+  text-transform: uppercase;
+  font-family: "Mandali";
+  transform: rotate(45deg);
+  box-shadow: 0 3px 3px #00000030;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Section-6 - FAQ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+#faq {
+  background-color: #f8f9fa;
+}
+
+#faq .question h2 {
+  font-size: 17px;
+  color: #536976;
+  font-weight: 500;
+  font-family: "Open Sans";
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+#faq .row {
+  display: flex;
+  margin-top: 60px;
+}
+
+#faq .half-left {
+  width: 35%;
+  margin-right: 20px;
+}
+
+#faq .half-right {
+  width: 60%;
+  margin-left: 30px;
+}
+
+#faq .question {
+  background-color: white;
+  box-shadow: 0 4px 8px #343a4014;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+#faq .question .answer {
+  display: none;
+  text-align: left;
+  padding: 16px 20px;
+}
+
+#faq .question.active .answer {
+  display: block;
+  padding: 16px 20px;
+  line-height: 26px;
+}
+
+#faq .question.active h2 {
+  background-color: #e6e9ef;
+  color: #343a40;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#faq img {
+  margin-right: 10px;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Sec-i-b - Available !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+#available {
+  height: 474px;
+  width: auto;
+}
+
+#text-available {
+  padding: 0;
+  font-size: 45px;
+  max-width: 600px;
+  margin: 0px auto;
+  margin-bottom: 15px;
+}
+
+.store-img img {
+  margin-top: 40px;
+  width: 157px;
+  height: 52px;
+  box-shadow: 0 5px 10px #00000026;
+  cursor: pointer;
+}
+
+/*  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!! Sec- Contact Us !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  */
+
+#contacts {
+  background: #f8f9fa;
+}
+
+#contatcs .half-left {
+  margin-right: 20px;
+}
+
+#contacts .half-left h2 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#contacts .half-left,
+.half-right {
+  margin-top: 50px;
+}
+
+#contacts .half-left img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+#contacts .half-left h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+#contacts .half-left h3 i {
+  color: #1f61eb;
+  font-size: 18px;
+  background: rgba(31, 97, 235, 0.15);
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 36px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#contacts .half-left ul {
+  margin-bottom: 20px;
+}
+
+#contacts .half-left ul a {
+  color: #536976;
+}
+
+#contacts .contact-form {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+  padding: 50px;
+  margin-left: 145px;
+  width: 600px;
+}
+
+#contacts .contact-form label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#contacts .contact-form input,
+#contacts .contact-form textarea {
+  width: 100%;
+  border: 1px solid #e9ecf1;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contacts .contact-form textarea {
+  height: 100px;
+  font-family: "Mandali";
+}
+
+#contacts .half-column {
+  width: 45%;
+}
+
+#contacts .move-to-r {
+  margin-left: 20px;
+  width: 50%;
+}
+
+#contacts .contact-form ::placeholder {
+  color: #8c99be;
+}
+
+#contacts .contact-form .form-line {
+  margin-bottom: 10px;
+  color: #71757d;
+}
+
+#contacts .button-red {
+  display: block;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  padding: 12px 42px 12px 22px;
+  font-size: 16px;
+  text-align: center;
+  background: rgb(235, 32, 83);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 32, 83, 1) 0%,
+    rgba(245, 148, 172, 1) 100%
+  );
+  cursor: pointer;
+}
+
+#contacts i.material-symbols-outlined {
+  font-size: 18px;
+  position: absolute;
+  padding-left: 8px;
+}

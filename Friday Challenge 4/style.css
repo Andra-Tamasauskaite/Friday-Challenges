@@ -1,0 +1,20 @@
+body {
+  background: rgb(23, 126, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(23, 126, 189, 1) 0%,
+    rgba(7, 209, 250, 1) 81%,
+    rgba(153, 230, 255, 1) 100%
+  );
+}
+
+h1,
+h4 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10rem;
+}

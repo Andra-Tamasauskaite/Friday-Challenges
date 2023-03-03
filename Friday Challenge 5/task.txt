@@ -1,15 +1,15 @@
-Dienos kokteilis
-Due March 6, 2023 11:59 PM
+                                     2023.03.03
+                                Dienos kokteilis
+                            Due March 6, 2023 11:59 PM
 
 
-Instructions
-Pasinaudodami nemokamu kokteilių API:
+Instructions:
+
+1) Pasinaudodami nemokamu kokteilių API:
 https://www.thecocktaildb.com/api.php
 
-Savo puslapyje susigrąžinkite ir atvaizduokite vieno atsitiktinio kokteilio informaciją:
+2) Savo puslapyje susigrąžinkite ir atvaizduokite vieno atsitiktinio kokteilio informaciją: Nuotrauką, pavadinimą, taurės tipą, ar jis alkoholinis ar ne, ingredientus ir matavimo vienetus.).
 
- Nuotrauką, pavadinimą, taurės tipą, ar jis alkoholinis ar ne, ingredientus ir matavimo vienetus.).
+3) Po kokteilio informacija sukurkite mygtuką: "Naujas kokteilis" ant kurio paspaudus būtų pakartotinai grąžinama naujo kokteilio informacija.
 
-Po kokteilio informacija sukurkite mygtuką: "Naujas kokteilis" ant kurio paspaudus būtų pakartotinai grąžinama naujo kokteilio informacija.
-
-Pabaigus darbą prisekite failus arba nuorodą iki jų.
+4) Pabaigus darbą prisekite failus arba nuorodą iki jų.

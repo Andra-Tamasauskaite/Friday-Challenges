@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 930px;
+  max-height: 900px;
+}
+
+.television #background {
+  background-color: black;
+  position: relative;
+  width: 480px;
+  height: 266px;
+  top: -328px;
+  left: 1px;
+}
+
+.television #tv-frame {
+  margin-top: 50px;
+  width: 500px;
+}
+
+div {
+  margin: auto;
+  width: 55%;
+}
+
+.controller img {
+  margin-top: 50px;
+  width: 400px;
+  margin-left: 48px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 26px;
+  height: 27px;
+  font-size: 49px;
+  cursor: pointer;
+}
+
+.y-button {
+  position: relative;
+  bottom: 245px;
+  left: 334px;
+  color: transparent;
+}
+
+.b-button {
+  position: relative;
+  bottom: 215px;
+  left: 330px;
+  color: transparent;
+}
+
+.a-button {
+  position: relative;
+  bottom: 190px;
+  left: 275px;
+  color: transparent;
+}
+
+.x-button {
+  position: relative;
+  bottom: 217px;
+  left: 217px;
+  color: transparent;
+}
+
+.turn-on-btn {
+  position: relative;
+  width: 37px;
+  height: 30px;
+  bottom: 260px;
+  left: 110px;
+  color: transparent;
+}
+
+.television p {
+  font-family: sans-serif;
+  font-size: 50px;
+  position: relative;
+  top: -15rem;
+  left: 8rem;
+  width: 238px;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Y BUTTON */
+.television #tv-program {
+  position: relative;
+  bottom: 348px;
+  left: 10px;
+  width: 480px;
+  height: 267px;
+}
+
+.television {
+  height: 400px;
+}
+
+.television #google-site {
+  position: relative;
+  width: 477px;
+  height: 265px;
+  bottom: 347px;
+  left: 12px;
+}
+
+#game-table {
+  position: relative;
+  bottom: 347px;
+  left: 145px;
+}
+
+/* #welcome {
+  font-family: sans-serif;
+  display: flex;
+  background-color: #026302;
+  color: white;
+  position: relative;
+  width: 480px;
+  height: 266px;
+  top: -328px;
+  left: 1px;
+}
+
+#welcome .welcome-text {
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+#welcome .button-text {
+  font-size: 20px;
+} */

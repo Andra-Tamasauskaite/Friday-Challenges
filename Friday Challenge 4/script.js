@@ -1,4 +1,3 @@
-/////////Shorts
 const message = document.getElementById("text-show");
 const messageStyle = document.querySelector("p").style;
 let blackScreen = document.getElementById("background");

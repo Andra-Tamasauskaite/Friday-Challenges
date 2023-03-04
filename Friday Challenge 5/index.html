@@ -11,6 +11,11 @@
     />
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
       body {
         background: radial-gradient(circle, #dea9ac 0%, #8c0008 100%);
         color: white;
@@ -18,7 +23,6 @@
 
       h1 {
         margin-top: 40px;
-        margin-bottom: 50px;
         font-size: 50px;
         text-align: center;
       }
@@ -26,12 +30,20 @@
         text-align: center;
       }
 
-      .cocktail {
-        margin: auto;
-        width: 50%;
+      .container {
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
       }
-      .cocktail p {
+
+      .cocktail p,
+      .content p {
         text-align: justify;
+        inline-size: 500px;
+      }
+
+      .content {
+        margin-top: 80px;
       }
 
       img {
@@ -51,7 +63,7 @@
         color: white;
         font-size: 25px;
         font-weight: 700;
-        box-shadow: #00000029 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
       }
 
       button:hover {
@@ -99,33 +111,34 @@
             }
 
             document.querySelector(".result").innerHTML = `
-
+            
           <div class="cocktail">
-            <h2 style="margin-top: 30px">${drink.strDrink}</h2>
+            <h2>${drink.strDrink}</h2>
             <img src="${drink.strDrinkThumb}" />
+          </div>
 
-            <h2>Description</h2>
-
-            <div class="glass-type">
+            
+          <div class="content">
+            <nav class="glass-type">
+              <h2 style="margin-bottom: 30px">Description</h2>
                 <h3>Glass type:</h3>
                 <p>${drink.strGlass} is needed to make ${drink.strDrink} cocktail.</p>
-            </div>
+            </nav>
 
-            <div class="alcohol">
+            <nav class="alcohol">
                 <h3>Alcoholic drink:</h3>
                 <p>${alcoholicDrink}.</p>
-            </div>
+            </nav>
 
-            <div class="instructions">
+            <nav class="instructions">
                 <h3>Instructions:</h3>
                 <p>${drink.strInstructions}</p>
-            </div>
+            </nav>
             ${ingredients}
 
-            <div class="next-new">
-                <button onclick="cocktailList()">         New Cocktail
-                </button>
-            </div>
+            <nav class="next-new">
+                <button onclick="cocktailList()">New Cocktail</button>
+            </nav>
         </div>
           `;
           });
